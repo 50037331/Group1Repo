@@ -5,6 +5,3 @@ app = Flask(__name__)
 def hello():
     return "Testing that this thing updates."
 
-group = ["Alex", "Anna", "Ariadna", "Bronagh", "Conor"]
-for name in group:
-   print(name)
